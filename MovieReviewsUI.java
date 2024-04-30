@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  * MovieReviewsUI
- * This is a project that I've been thinking about for about a year or two. Was thinking to implement it in HTML/CSS or in Python, or in JS but now I chose Java (Explained in the README.md).
+ * This is a project that I've been thinking about for about a year. Was thinking to implement it in HTML/CSS or in Python, or in JS but now I chose Java (Explained in the README.md).
  * Warning, you can not remove your review (except through the txt file saved). 
  */
 public class MovieReviewsUI {

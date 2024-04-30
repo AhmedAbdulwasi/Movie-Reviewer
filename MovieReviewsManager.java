@@ -40,7 +40,7 @@ public class MovieReviewsManager {
         return "" + accountid_num + userList.size();
     }
     
-    public User getUserr(String username) {
+    public User getUser(String username) {
         
         for (User account : userList) {
         if (account.getUsername().equals(username)) return account; // get the user based off of their username
@@ -87,10 +87,12 @@ public class MovieReviewsManager {
         if (ind-1 >= 0 && ind-1 < userList.size()) {
             User user = userList.get(ind-1);
             System.out.print(user.toString());
+            System.out.println();
             System.out.println(); 
             for (int i = 0; i < reviews.size(); i++) {
                 if (reviews.get(i).getUser().getUsername().equals(user.getUsername())) {
                     System.out.print(reviews.get(i).toPrint());
+                    System.out.println();
                     System.out.println(); 
                 }
             }
@@ -124,7 +126,7 @@ public class MovieReviewsManager {
 
     }
     public boolean writeReview(String username, String movie_name, double stars, String description, int year, Review.Genre genre) {
-        User theuser = getUserr(username); // use the getuser function based off of the username
+        User theuser = getUser(username); // use the getuser function based off of the username
         if (theuser == null) {
             error_message = "User Account Not Found " + username;
             return false;
