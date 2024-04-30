@@ -1,5 +1,6 @@
 # Movie Reviewer
 A Movie Reviewer which can sort movie reviews, register users, save reviews into a text file, read a text file, add reviews, etc. I recommend you try it and share your reviews with me and everyone who can see my GitHub page.
+
 ![image](https://github.com/AhmedAbdulwasi/Movie-Reviewer/assets/98428365/68083ad0-519d-4e0e-bb16-b0b102564cda)
 
 
