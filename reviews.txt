@@ -1,0 +1,39 @@
+Username: 
+AhmedReviews
+Movie_Name: 
+Zodiac
+Stars: 
+4.3
+Year: 
+2007
+Genre: 
+HORROR
+Description: 
+This movie focuses on the real-life character, Robert Graysmith who gives up his wife to focus on the Zodiac Investigation. There is a powerful scene at the end where Robert (Jake Gyllenhall) visits a store and where he believes the Zodiac Killer is employed in. They both stare at each other coldly and Robert leaves. Years later, a survivor identifies that employer that Robert visited as the Zodiac Killer. So many great scenes. Beautiful movie.
+
+Username: 
+AhmedReviews
+Movie_Name: 
+Gone Girl
+Stars: 
+3.7
+Year: 
+2014
+Genre: 
+OTHER
+Description: 
+AMAZING MOVIE. HORRIBLE ENDING. If the movie ended 15 mins earlier it would've easily been a 4.5/5. The ending just made it even more sadder because bad people like Amy won at the end for the horrible things she did to her past relationships and her husband. Don't get me wrong, her husband cheated on her and pushed her but doesn't deserve an entire murder charge dropped on him. Horrible ending, would've been fun if we were to choose what will happen next instead of setting in reality that Amy won.
+
+Username: 
+TestReviewer1
+Movie_Name: 
+Knvies Out
+Stars: 
+4.6
+Year: 
+2019
+Genre: 
+COMEDY
+Description: 
+SO MANY TWISTS. FUNNY CASTS. AMAZING SCORE! 4.6/5.
+
