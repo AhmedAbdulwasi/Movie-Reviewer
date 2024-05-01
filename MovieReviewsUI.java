@@ -99,6 +99,7 @@ public class MovieReviewsUI {
                 if (system.writeReview(name,movie_name,stars,description,movie_year,genre)) System.out.print("Sucessfully Written A Review For " + movie_name + " (" + movie_year + ")");
                 else System.out.println(system.getErrorMessage());
             }
+            
             else if (action.equalsIgnoreCase("CHECKREVIEW")) {
                 // checks a certain review to see the full review made
                 int index = 0;
@@ -124,6 +125,12 @@ public class MovieReviewsUI {
                 // Sorts by the number of reviews
                 system.sortbynumb();
             }
+
+            else if (action.equalsIgnoreCase("SORTBYUSERNUMB")) {
+                // Sorts by the number of reviews for users list
+                system.sortbyusernumb();
+            }
+
             else if (action.equalsIgnoreCase("CHECKUSER")) {
                 // You check a user's reviews
                 int index = 0;

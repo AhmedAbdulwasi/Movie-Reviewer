@@ -229,4 +229,18 @@ public class MovieReviewsManager {
     }
     // SORT FOR USERS
 
+    public void sortbyusernumb() { // Sort by the number of reviews (recommended)!
+        Collections.sort(userList, new Comparator<User>() {
+            public int compare(User user1, User user2) {
+              return Integer.compare(user2.getNumberOfReviews(), user1.getNumberOfReviews());
+            }
+          });
+        int ind = 1;
+        for (User user: userList) {
+            System.out.printf("%-2s. ", ind);
+            user.printInfo();
+            ind++;
+            System.out.println(); 
+        }
+    }
 }
