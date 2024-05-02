@@ -1,6 +1,32 @@
 Username: 
 AhmedReviews
 Movie_Name: 
+The Big Lebowski
+Stars: 
+5.0
+Year: 
+1998
+Genre: 
+COMEDY
+Description: 
+LOVED IT. FUNNIEST MOVIE I'VE EVER SEEN. There are so many scenes that are just classics and funny and when I go back to youtube, I end up watching multiple scenes again just to have a laugh. Everything was great. The story, the cast, the score, production, EVERYTHING. You need to watch this movie.
+
+Username: 
+TestReviewer1
+Movie_Name: 
+Knvies Out
+Stars: 
+4.6
+Year: 
+2019
+Genre: 
+COMEDY
+Description: 
+SO MANY TWISTS. FUNNY CASTS. AMAZING SCORE! 4.6/5.
+
+Username: 
+AhmedReviews
+Movie_Name: 
 Zodiac
 Stars: 
 4.3
@@ -23,17 +49,4 @@ Genre:
 OTHER
 Description: 
 AMAZING MOVIE. HORRIBLE ENDING. If the movie ended 15 mins earlier it would've easily been a 4.5/5. The ending just made it even more sadder because bad people like Amy won at the end for the horrible things she did to her past relationships and her husband. Don't get me wrong, her husband cheated on her and pushed her but doesn't deserve an entire murder charge dropped on him. Horrible ending, would've been fun if we were to choose what will happen next instead of setting in reality that Amy won.
-
-Username: 
-TestReviewer1
-Movie_Name: 
-Knvies Out
-Stars: 
-4.6
-Year: 
-2019
-Genre: 
-COMEDY
-Description: 
-SO MANY TWISTS. FUNNY CASTS. AMAZING SCORE! 4.6/5.
 
