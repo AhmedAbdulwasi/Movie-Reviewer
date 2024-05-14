@@ -82,23 +82,20 @@ public class MovieReviewsManager {
             System.out.println(); 
         }
     }
-    public void printUser(int ind) {
+    public void printUser(String username) {
         System.out.println(); // I want it to print Users profile first then the reviews
-        if (ind-1 >= 0 && ind-1 < userList.size()) {
-            User user = userList.get(ind-1);
-            System.out.print(user.toString());
-            System.out.println();
-            System.out.println(); 
-            for (int i = 0; i < reviews.size(); i++) {
-                if (reviews.get(i).getUser().getUsername().equals(user.getUsername())) {
-                    System.out.print(reviews.get(i).toPrint());
-                    System.out.println();
-                    System.out.println(); 
-                }
+        
+        User user = getUser(username);
+        if (user != null)
+        System.out.print(user.toString());
+        System.out.println();
+        System.out.println(); 
+        for (int i = 0; i < reviews.size(); i++) {
+            if (reviews.get(i).getUser().getUsername().equals(user.getUsername())) {
+                System.out.print(reviews.get(i).toPrint());
+                System.out.println();
+                System.out.println(); 
             }
-        } 
-        else {
-            System.out.println("Invalid review index.");
         }
     }
     public void printReview(int ind) {

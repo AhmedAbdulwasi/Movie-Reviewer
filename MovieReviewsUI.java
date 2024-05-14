@@ -133,10 +133,10 @@ public class MovieReviewsUI {
 
             else if (action.equalsIgnoreCase("CHECKUSER")) {
                 // You check a user's reviews
-                int index = 0;
-                System.out.print("Index Number: ");
+                String index = "";
+                System.out.print("Username: ");
                 if (scanner.hasNextLine()) {
-                    index = scanner.nextInt();
+                    index = scanner.nextLine();
                 }
                 system.printUser(index);
             }
