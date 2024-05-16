@@ -9,12 +9,12 @@ Year:
 Genre: 
 COMEDY
 Description: 
-LOVED IT. FUNNIEST MOVIE I'VE EVER SEEN. There are so many scenes that are just classics and funny and when I go back to YouTube, I end up watching multiple scenes again just to laugh. Everything was great. The story, the cast, the score, the production, EVERYTHING. You need to watch this movie.
+LOVED IT. FUNNIEST MOVIE I'VE EVER SEEN. There are so many scenes that are just classics and funny and when I go back to youtube, I end up watching multiple scenes again just to have a laugh. Everything was great. The story, the cast, the score, production, EVERYTHING. You need to watch this movie.
 
 Username: 
 TestReviewer1
 Movie_Name: 
-Knives Out
+Knvies Out
 Stars: 
 4.6
 Year: 
@@ -35,20 +35,20 @@ Year:
 Genre: 
 HORROR
 Description: 
-This movie focuses on the real-life character, Robert Graysmith who gives up his wife to focus on the Zodiac Investigation. There is a powerful scene at the end where Robert (Jake Gyllenhall) visits a store and where he believes the Zodiac Killer is employed in. They both stare at each other coldly and Robert leaves. Years later, a survivor identifies the employer that Robert visited as the Zodiac Killer. So many great scenes. Beautiful movie.
+This movie focuses on the real-life character, Robert Graysmith who gives up his wife to focus on the Zodiac Investigation. There is a powerful scene at the end where Robert (Jake Gyllenhall) visits a store and where he believes the Zodiac Killer is employed in. They both stare at each other coldly and Robert leaves. Years later, a survivor identifies that employer that Robert visited as the Zodiac Killer. So many great scenes. Beautiful movie.
 
 Username: 
 AhmedReviews
 Movie_Name: 
 Gone Girl
 Stars: 
-3.3
+3.7
 Year: 
 2014
 Genre: 
 OTHER
 Description: 
-AMAZING MOVIE. HORRIBLE ENDING. If the movie ended 15 mins earlier it would've easily been a 4.5/5. The ending just made it even more sadder because bad people like Amy won at the end for the horrible things she did to her past relationships and her husband. Don't get me wrong, her husband cheated on her and pushed her but doesn't deserve an entire murder charge dropped on him. Horrible ending, would've been fun if we were to choose what would happen next instead of setting in reality that Amy won.
+AMAZING MOVIE. HORRIBLE ENDING. If the movie ended 15 mins earlier it would've easily been a 4.5/5. The ending just made it even more sadder because bad people like Amy won at the end for the horrible things she did to her past relationships and her husband. Don't get me wrong, her husband cheated on her and pushed her but doesn't deserve an entire murder charge dropped on him. Horrible ending, would've been fun if we were to choose what will happen next instead of setting in reality that Amy won.
 
 Username: 
 AhmedReviews
@@ -61,5 +61,18 @@ Year:
 Genre: 
 COMEDY
 Description: 
-No, thank you. This does not represent the teenage experience or the high school experience. The premise is stupid and made it all about sex, have an additional element of comedy. Does not adapt The Scarlet Letter AT ALL except for one scene where she wears the letter "A" as a badge but I found it a stupid scene. It's a typical high school movie where the premise is all about sex which gets very repetitive. I do not recommend this movie at all. The acting is the only reason I'm giving it a 1.2.
+No thank you. This does not represent the teenager experience or the high school experience. The premise is stupid and made it all about sex, have an additional element of comedy. Does not adapt The Scarlet Letter AT ALL except for one scene where she wears the letter "A" as a badge but I found it a stupid scene. Its a typicial high school movie where the premise is all about sex which gets very repetitive. I do not recommend this movie at all. The acting is the only reason im giving it a 1.2.
+
+Username: 
+AhmedReviews
+Movie_Name: 
+Safety Not Guaranteed
+Stars: 
+4.2
+Year: 
+2012
+Genre: 
+COMEDY
+Description: 
+I loved it. Amazing cast, cool story, shocking twist, and a $750,000 budget. Just a really cool movie
 
