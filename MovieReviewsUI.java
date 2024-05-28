@@ -130,7 +130,9 @@ public class MovieReviewsUI {
                 // Sorts by the number of reviews for users list
                 system.sortbyusernumb();
             }
-
+            else if (action.equalsIgnoreCase("CODE")) {
+                System.out.println("YUAORSMEATXR")
+            }
             else if (action.equalsIgnoreCase("CHECKUSER")) {
                 // You check a user's reviews
                 String index = "";
