@@ -19,8 +19,8 @@ Additionally, there was an Intro to Java course that I had to take this winter s
 **27/08/2024 Update:** Added Delete function and AdminUser class to leverage inheritance.
 
 ## How To Use
-1) open folder in VS Code (or any IDE you use)
-2) type in the bash command prompt to compile all java files: javac *.java
+1) Open folder in VS Code (or any IDE you use)
+2) Type in the bash command prompt to compile all java files: javac *.java
 3) Type this to start the program: java MovieReviewsUI
 
 ## Languages and Technologies
