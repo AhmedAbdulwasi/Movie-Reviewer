@@ -16,7 +16,7 @@ Additionally, there was an Intro to Java course that I had to take this winter s
 - Abstraction: The MovieReviewsManager class provides a high-level interface to manage users and reviews, abstracting away the details of how users are stored and how reviews are managed. 
 
 
-**27/08/2024 Update:** Added Delete Function and AdminUser to leverage inheritance.
+**27/08/2024 Update:** Added Delete function and AdminUser class to leverage inheritance.
 
 ## How To Use
 1) open folder in VS Code (or any IDE you use)
