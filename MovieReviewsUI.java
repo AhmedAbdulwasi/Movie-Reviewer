@@ -47,6 +47,17 @@ public class MovieReviewsUI {
                 if (system.RegisterUser(name)) System.out.printf("Welcome %s!",name);
                 else System.out.println(system.getErrorMessage()); 
             }
+            else if (action.equalsIgnoreCase("REGADMIN")) {
+                // Register an admin user
+                String name = "";
+                System.out.print("Username: ");
+                if (scanner.hasNextLine()) {
+                    name = scanner.nextLine();
+                }
+                
+                if (system.RegisterAdminUser(name)) System.out.printf("Welcome Admin %s!\n", name);
+                else System.out.println(system.getErrorMessage());
+            }            
             else if (action.equalsIgnoreCase("REVIEWS")) {
                 // Lists all reviews
                 system.listAllReviews();
@@ -131,16 +142,37 @@ public class MovieReviewsUI {
                 system.sortbyusernumb();
             }
             else if (action.equalsIgnoreCase("CODE")) {
-                System.out.println("YUAORSMEATXR")
+                System.out.println("YUAORSMEATXR");
             }
             else if (action.equalsIgnoreCase("CHECKUSER")) {
                 // You check a user's reviews
-                String index = "";
+                String username = "";
                 System.out.print("Username: ");
                 if (scanner.hasNextLine()) {
-                    index = scanner.nextLine();
+                    username = scanner.nextLine();
                 }
-                system.printUser(index);
+                system.printUser(username);
+            }
+            else if (action.equalsIgnoreCase("DELETE")) {
+                String name = "";
+                System.out.print("Username: ");
+                if (scanner.hasNextLine()) {
+                    name = scanner.nextLine();
+                }
+                int index = 0;
+                System.out.print("Index Number: ");
+                if (scanner.hasNextLine()) {
+                    index = scanner.nextInt();
+                    scanner.nextLine();
+                }
+                User user = system.getUser(name);
+                if (user instanceof AdminUser) {
+                    AdminUser admin = (AdminUser) user;
+                    admin.deleteReview(system.getAllUsers(), name, system.getReviews(), index);
+                    System.out.println("Review deleted successfully.");
+                } else {
+                    System.out.println("User is not an admin or not found.");
+                }
             }
             else if (action.equalsIgnoreCase("SAVE")) {
                 // Save the reviews list into the reviews.txt

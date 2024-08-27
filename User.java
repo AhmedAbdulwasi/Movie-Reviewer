@@ -41,6 +41,9 @@ public class User {
     public void addNumbOfReviews() {
         this.number_of_reviews++;
     }
+    public void subNumbOfReviews() {
+        this.number_of_reviews--;
+    }
     public void printInfo() { // Will be used as a User Profile info
         System.out.printf("Id: %s Username: %s Number of Reviews: %d%n", accountId, username, number_of_reviews);
     }

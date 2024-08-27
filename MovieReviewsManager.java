@@ -47,6 +47,12 @@ public class MovieReviewsManager {
         }
         return null;
     }
+    public ArrayList<Review> getReviews() {
+        return reviews; 
+    }
+    public ArrayList<User> getAllUsers() {
+        return userList; 
+    }
     private static boolean genreExists(Review.Genre genre) {
         return VALID_GENRES.contains(genre); // check if the genre is valid
     }
@@ -165,6 +171,22 @@ public class MovieReviewsManager {
           }
         }
       }
+    
+    public boolean RegisterAdminUser(String username) {
+        if (username == null || username.isEmpty()) {
+            error_message = "Username Is Invalid";
+            return false;
+        }
+        AdminUser newAdminUser = new AdminUser(generateUserAccountId(), username, 0);
+        if (userExists(newAdminUser)) {
+            error_message = "Username Already Exists";
+            return false;
+        }
+        userList.add(newAdminUser);
+        return true;
+    }
+
+    
 
     //SORTS FOR REVIEWS
     public void sortbystars() { // Sort it by stars
