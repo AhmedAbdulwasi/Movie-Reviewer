@@ -13,7 +13,7 @@ Additionally, there was an Intro to Java course that I had to take this winter s
 - Encapsulation: The User, Review and MovieReviewsManager uses classes to encapsulate data and the methods to operate on that data.
 - Inheritance: The AdminUser extends the User class, inheriting its properties and methods.
 - Polymorphism: The equals method in the Review and User classes is overridden to provide specific equality checks.
-- Abstraction: The MovieReviewsManager class provides an interface to manage users and reviews, abstracting away the details of how users are stored and how reviews are managed. 
+- Abstraction: The MovieReviewsUI class provides an interface to manage users and reviews, abstracting away the details of how users are stored and how reviews are managed. 
 
 
 **27/08/2024 Update:** Added Delete function and AdminUser class to leverage inheritance.
